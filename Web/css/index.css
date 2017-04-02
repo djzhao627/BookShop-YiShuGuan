@@ -1,0 +1,142 @@
+﻿/*#代表选择ID为header的标签*/
+.clean {
+    clear: both;
+}
+
+#header {
+    /*background可以设置背景颜色图片之类的*/
+    background: #FFCE45;
+}
+
+#navBar {
+    list-style: none;
+    background: #161814;
+    /*color设置字体颜色*/
+    color: #FFFFFF;
+    font-weight: 200;
+    text-align: center;
+    font-size: 16pt;
+}
+
+    #navBar li {
+        float: left;
+        display: inline-block;
+        height: 30px;
+        width: 19%;
+        line-height: 30px;
+    }
+
+        #navBar li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        #navBar li:hover {
+            color: #ccc;
+            background: #fff;
+        }
+
+        #navBar li a:hover {
+            color: #ccc;
+        }
+
+.card {
+    margin: 2%;
+    background-color: #fff;
+    border-color: #ddd;
+    border-width: 1px;
+    border-radius: 4px 4px 0 0;
+}
+
+#main {
+    min-height: 410px;
+}
+
+#main_hot .recommend {
+    margin: 10px;
+}
+
+#main_new .recommend {
+    margin: 10px;
+}
+
+#recommend .recommend {
+    margin: 10px;
+}
+
+#footer {
+    background: #FFCE45;
+    text-align: center;
+    font-size: small;
+    color: #3C3C3C;
+}
+
+#search {
+    background: #FFAD46;
+    text-align: right;
+    font-size: 15px;
+    color: #000000;
+}
+
+#main {
+    padding-bottom: 10px;
+}
+/* Mian */
+#page_main .book {
+    width: 19%;
+    display: inline-block;
+    text-align: center;
+}
+
+    #page_main .book img {
+        height: 200px;
+        width: 90%;
+    }
+
+    #page_main .book a:hover {
+        text-decoration: none;
+    }
+
+    #page_main .book h4,small {
+        white-space: nowrap;
+        text-overflow:ellipsis;
+        overflow: hidden;
+    }
+
+/*BookDetail*/
+#page_bookDetail {
+    padding: 50px 0;
+}
+#page_bookDetail .book_img {
+    display: block;
+    width: 100%;
+}
+
+/*Cart*/
+#page_cart .book_image {
+    /*border: #ccc solid 1px;*/
+    display: inline-block;
+    width: 90%;
+}
+#page_cart th {
+    text-align: center;
+}
+#page_cart table {
+    table-layout: fixed;
+}
+#page_cart .min-height {
+    height: 410px;
+}
+
+/*Search*/
+#page_serarch .book_image {
+    /*border: #ccc solid 1px;*/
+    display: inline-block;
+    width: 90%;
+}
+#page_serarch table {
+    table-layout: fixed;
+}
+#page_serarch th {
+    text-align: center;
+}

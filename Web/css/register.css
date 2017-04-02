@@ -1,0 +1,22 @@
+body {
+	background-color: #FFCE45;
+}
+#form {
+	background: #fff;
+    width: 60%;
+	margin: 0 auto;
+    margin-bottom: 0;
+	padding: 30px;
+	border-radius: 5px;
+	box-shadow: #ccc 10px 10px 20px;
+}
+
+#footer {
+    text-align: center;
+    padding: 5px;
+    background: #F7D15F;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
