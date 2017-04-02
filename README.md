@@ -22,6 +22,7 @@ ASP.NET BookShop 用asp.net写的网上书店
 	运行前台：右击 Web/Main.aspx -> 在浏览器中查看
 	
 	运行后台：右击 Web/index.html -> 在浏览器中查看(admin/admin)
+<<<<<<< HEAD
 
 ## 预览
  - 前台
@@ -51,3 +52,6 @@ ASP.NET BookShop 用asp.net写的网上书店
 	图书类别列表
 	
 
+=======
+	
+>>>>>>> origin/master
