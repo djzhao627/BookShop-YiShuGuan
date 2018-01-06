@@ -25,4 +25,4 @@ ASP.NET BookShop 用asp.net写的网上书店
 
 ## 预览
  
- 预览请到 [Preview](https://github.com/djzhao627/BookShop-YiShuGuan/tree/master/Preview)
+ 预览请点击 [Preview](https://github.com/djzhao627/BookShop-YiShuGuan/tree/master/Preview/readme.md)
